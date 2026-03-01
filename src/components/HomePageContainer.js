@@ -9,12 +9,12 @@ import {
   ProgressOrError,
   useModulesManager,
   useTranslations,
-} from "@@stssocialst-stp/fe-core";
+} from "@stssocialst-stp/fe-core";
 import { useSelector } from "react-redux";
 
 import { DEFAULT, MODULE_NAME, DAYS_HF_STATUS } from "../constants";
 import { useFetchData } from "../hooks/useFetchData";
-import { getTimeDifferenceInDaysFromToday } from "@@stssocialst-stp/fe-core";
+import { getTimeDifferenceInDaysFromToday } from "@stssocialst-stp/fe-core";
 
 const useStyles = makeStyles((theme) => ({
   container: theme.page,

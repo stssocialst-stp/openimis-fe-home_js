@@ -1,7 +1,4 @@
-import { Contributions } from "@@stssocialst-stp/fe-core";
-import React from "react";
-
-import { Contributions, useModulesManager } from "@openimis/fe-core";
+import { Contributions, useModulesManager } from "@stssocialst-stp/fe-core";
 import { DEFAULT } from "../constants";
 
 const HomePage = (props) => {

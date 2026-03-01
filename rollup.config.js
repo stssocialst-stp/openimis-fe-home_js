@@ -20,7 +20,7 @@ export default {
     /^@babel.*/,
     /^@date-io\/.*/,
     /^@material-ui\/.*/,
-    /^@@stssocialst-stp.*/,
+    /^@stssocialst-stp.*/,
     "classnames",
     "clsx",
     "history",
