@@ -1,9 +1,15 @@
 {
-  "name": "@openimis/fe-home",
+  "name": "@stssocialst-stp/fe-home",
   "version": "1.4.1",
   "license": "AGPL-3.0-only",
   "description": "openIMIS Frontend Home reference module",
-  "repository": "openimis/openimis-fe-home_js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stssocialst-stp/openimis-fe-home_js"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "engines": {
@@ -13,7 +19,7 @@
   "scripts": {
     "build": "rollup -c",
     "start": "rollup -c -w",
-    "prepare":"npm run build"
+    "prepare": "npm run build"
   },
   "peerDependency": {
     "react-intl": "^5.8.1"

@@ -1,4 +1,4 @@
-import { Contributions } from "@openimis/fe-core";
+import { Contributions } from "@@stssocialst-stp/fe-core";
 import React from "react";
 
 const HomePage = (props) => {
