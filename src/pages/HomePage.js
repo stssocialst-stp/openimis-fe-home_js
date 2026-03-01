@@ -1,3 +1,4 @@
+import { Contributions } from "@@stssocialst-stp/fe-core";
 import React from "react";
 
 import { Contributions, useModulesManager } from "@openimis/fe-core";
