@@ -1,3 +1,4 @@
+import React from "react";
 import { Contributions, useModulesManager } from "@stssocialst-stp/fe-core";
 import { DEFAULT } from "../constants";
 
